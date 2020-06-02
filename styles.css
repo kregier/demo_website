@@ -1,0 +1,104 @@
+nav{
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    z-index: 1;
+    width: 100vw;
+    font-family: Palatino, serif;
+  }
+  nav ul li{
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;
+  }
+  #brand {
+    float: left;
+  }
+  .nav-link {
+    color: black;
+    text-decoration: none;
+    font-family: Rockwell, serif;
+  }
+  .nav-link:hover{
+    color: blue;
+    font-weight: bold;
+  }
+  
+  #brand .nav-link{
+    color: blue;
+    font-family: Rockwell;
+    font-weight: bold;
+    font-size: 14pt;
+  }
+  
+  #brand .nav-link:hover{
+    color: black;
+  }
+  
+  .header-tag{
+    font-family: Rockwell;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+  }
+  h3.header-tag{
+    margin-top: -30px;
+    font-size: 20pt;
+  }
+  h1{
+    font-size: 40pt;
+  }
+  #home {
+    margin-top: 60px;
+    position: relative;
+    left: 25px;
+    right: 25px;
+    width: 90vw;
+    height:60vh;
+    padding-top: 3em;
+    background: url("https://images.unsplash.com/photo-1589449063007-730f889d25e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80") center 15% no-repeat fixed;
+    background-size: cover;
+  }
+  .main {
+    text-align: center;
+  }
+  
+  #about {
+    margin-top: 50px;
+    display: inline-block;
+  }
+  
+  #about-picture{
+    width: 25vw;
+    float: left;
+  }
+  
+  #profile-pic{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 0.6em;
+    box-shadow: 2px 2px 2px black;
+  }
+  #about-content{
+    width: 60vw;
+    float: right;
+  }
+  
+  h2 {
+    font-family: Rockwell, serif;
+    font-size: 14pt;
+  }
+  h3{
+    font-family: Rockwell, serif;
+    font-size: 12pt;
+  }
+  
+  body{
+    background-color: darkblue;
+    font-family: "Palatino", serif;
+    font-size: 12pt;
+    color: white;
+  }
